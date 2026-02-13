@@ -183,10 +183,10 @@ body {
         </div>
 
         <!-- Фотографии по углам -->
-        <img class="image-corner top-left" src="static/images/1.jpg" alt="Фото 1">
-        <img class="image-corner top-right" src="static/images/2.jpg" alt="Фото 2">
-        <img class="image-corner bottom-left" src="static/images/3.png" alt="Фото 3">
-        <img class="image-corner bottom-right" src="static/images/4.png" alt="Фото 4">
+        <img class="image-corner top-left" src="{{ url_for('static', filename='images/1.jpg') }}" alt="Фото 1">
+        <img class="image-corner top-right" src="{{ url_for('static', filename='images/2.jpg') }}" alt="Фото 2">
+        <img class="image-corner bottom-left" src="{{ url_for('static', filename='images/3.png') }}" alt="Фото 3">
+        <img class="image-corner bottom-right" src="{{ url_for('static', filename='images/4.png') }}" alt="Фото 4">
     </div>
 
     <script>
